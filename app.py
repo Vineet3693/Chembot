@@ -1,4 +1,21 @@
+
 """
+Chemical Engineering Bot - Streamlit Application
+Main application file for the ChemE Bot with Gemini API integration
+"""
+
+import streamlit as st
+import time
+import os
+import sys
+from datetime import datetime
+
+# Fix import path for Streamlit Cloud
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# Import bot components
+from src.bot_engine import ChemEBot
+from src.utils import validate_input"""
 Chemical Engineering Bot - Streamlit Application
 Main application file for the ChemE Bot with Gemini API integration
 """
