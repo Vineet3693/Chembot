@@ -15,18 +15,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Import bot components
 from src.bot_engine import ChemEBot
-from src.utils import validate_input"""
-Chemical Engineering Bot - Streamlit Application
-Main application file for the ChemE Bot with Gemini API integration
-"""
-
-import streamlit as st
-import time
-import os
-from datetime import datetime
-
-# Import bot components
-from src.bot_engine import ChemEBot
 from src.utils import validate_input
 
 # Page configuration
@@ -36,6 +24,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Rest of your code continues here...
+
 
 # Custom CSS for better styling
 st.markdown("""
